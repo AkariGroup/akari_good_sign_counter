@@ -114,9 +114,9 @@ def main() -> None:
         total_good_count = log["good_count"]
 
     renderer = HandFaceRenderer(tracker=tracker, output=None)
-    HAND_GOOD_THRESHOLD = 10  # この回数以上OKが検出されたら1いいねとカウント
+    HAND_GOOD_THRESHOLD = 5  # この回数以上OKが検出されたら1いいねとカウント
     HAND_ERROR_THRESHOLD = (
-        5  # HAND_GOOD_THRESHOLDこの回数以上OK以外が検出されたらリセット
+        3  # HAND_GOOD_THRESHOLDこの回数以上OK以外が検出されたらリセット
     )
     GOOD_LOCK_TIME = 2  # いいね後のロック時間
     last_count_time = time.time()
