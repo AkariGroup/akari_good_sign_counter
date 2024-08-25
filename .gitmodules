@@ -1,6 +1,6 @@
-[submodule "depthai_handface"]
-	path = depthai_handface
-	url = https://github.com/geaxgx/depthai_handface.git
 [submodule "akari_motion_server"]
 	path = akari_motion_server
-	url = git@github.com:AkariGroup/akari_motion_server.git
+	url = https://github.com/AkariGroup/akari_motion_server.git
+[submodule "depthai_handface"]
+	path = depthai_handface
+	url = https://github.com/AkariGroup/depthai_handface.git
