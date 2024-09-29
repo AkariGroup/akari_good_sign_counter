@@ -1,4 +1,7 @@
 # akari_good_sign_counter
+
+![説明](jpg/akari_good_sign_counter.jpg "説明")
+
 いいねをカウントするアプリです。  
 AKARIに向けていいねポーズをすると、1いいねとしてカウントされます。  
 
